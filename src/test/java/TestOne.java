@@ -33,7 +33,7 @@ public class TestOne {
     @Test (dataProvider = "provider")
     public void testThree(int ssn, String name){
         System.out.println("SSN is " + ssn);
-        System.out.println("Name is" + name);
+        System.out.println("Na is" + name);
     }
 
 
