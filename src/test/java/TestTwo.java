@@ -1,3 +1,4 @@
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class TestTwo {
@@ -9,10 +10,15 @@ public class TestTwo {
     }
 
 
-    @Test
-    public void test5(){
-        System.out.println("Test 5");
+    @Test (dataProvider = "Provider", dataProviderClass = Dataproviderclass.class)
+    public void test5(int x , String str, int zip){
+        System.out.print(x + " ");
+        System.out.print(str + " ");
+        System.out.print(zip);
+        System.out.println();
     }
+
+
 
 
 
