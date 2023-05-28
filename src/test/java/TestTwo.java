@@ -6,7 +6,7 @@ public class TestTwo {
 
     @Test
     public void test4(){
-        System.out.println("Test 19999");
+        System.out.println("19999");
     }
 
 
